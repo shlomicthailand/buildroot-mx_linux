@@ -1,5 +1,5 @@
---- libenca-1.9.orig/configure
-+++ libenca-1.9/configure
+--- libenca-1.15.orig/configure
++++ libenca-1.15/configure
 
 @@ -20808,15 +20808,6 @@ _ACEOF
  fi
