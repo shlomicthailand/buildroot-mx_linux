@@ -25,6 +25,7 @@ G02REF + C150 + Meson 3 + More (TODO)
 This readme was updated: 2013-12-25
 
 How to build
+===================================
 
 Get a build host.
 You need 32 (i386) bit libraries for the code sorcerer toolchain. One simple way to do this is in an i386 chroot or virtual machine.
@@ -44,8 +45,11 @@ Set up a key to sign the image
       androiddebugkey -dname "CN=Android Debug,O=Android,C=US" -keypass \
       android -storepass android -keyalg RSA -keysize 2048 -validity 10000
 Build for M1
+======================================
 % make amlogic_xios-xbmc_defconfig
 % make
+
 Build for M3
+======================================
 % make amlogic_xios_m3-xbmc_defconfig
 % make
